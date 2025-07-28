@@ -28,6 +28,7 @@ const DestinationCard = memo(
             alt="Destination"
             width={330}
             height={404}
+            priority
           />
         )}
         <div className="flex flex-col gap-3">
