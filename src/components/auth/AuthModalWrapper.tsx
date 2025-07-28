@@ -21,14 +21,7 @@ interface AuthModalProps {
   onSwitchForm: () => void;
 }
 
-const AuthModalWrapper = memo(function AuthModalWrapper({
-  title,
-  formField,
-  handelShow,
-  btn1,
-  btn2,
-  onSwitchForm,
-}: AuthModalProps) {
+const AuthModalWrapper = memo(function AuthModalWrapper({title, formField, handelShow, btn1, btn2, onSwitchForm}: AuthModalProps) {
   const isLogin = title === "Login";
 
   return (
